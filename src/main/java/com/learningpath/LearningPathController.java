@@ -13,8 +13,11 @@ public class LearningPathController {
     @RequestMapping("/learningpaths")
     public List<LearningPath> retrieveAllPaths() {
         return Arrays.asList(
-            new LearningPath(1, "Learn Java", "dvvhchd"),
-            new LearningPath(1, "Learn React", "dvvhchd")
+            new LearningPath(1, "Learn Java", "xsxsxs"),
+            new LearningPath(1, "Learn Java", "xsxsxs"),
+            new LearningPath(1, "Learn React", "ali"),
+            new LearningPath(1, "Learn React", "ali"),
+            new LearningPath(1, "Learn React", "shadman")
         );
     }
 }
